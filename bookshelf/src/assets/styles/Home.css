@@ -1,0 +1,38 @@
+
+.home {
+  padding: 50px 20px;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  /* Estilos para pantallas medianas */
+  .home {
+    padding: 50px 50px; 
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Estilos para pantallas grandes */
+  .home {
+    padding: 50px 100px; 
+  }
+
+  .home-content {
+    flex-direction: row; 
+    
+  }
+
+  .person-image {
+    margin-right: 20px; 
+  }
+
+  .person-info {
+    text-align: left; 
+  }
+}
